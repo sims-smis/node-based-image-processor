@@ -18,10 +18,12 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_clicked();
+
+    void on_brightnessButton_clicked();
 
 private:
     Ui::MainWindow *ui;
-    // void onNodeItemPressed(QListWidgetItem *item);
+    QPointF lastPos = QPointF(0, 0);
+    void onNodeButtonClicked();
 };
 #endif // MAINWINDOW_H

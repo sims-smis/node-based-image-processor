@@ -15,6 +15,7 @@ SOURCES += \
 
 HEADERS += \
     GraphicsView/ZoomableGraphicsView.h \
+    NodeBoxItem.h \
     mainwindow.h
 
 FORMS += \

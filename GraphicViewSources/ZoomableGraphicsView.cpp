@@ -3,6 +3,7 @@
 // #include "leftSidebarHeader/NodeItem.h"
 #include <QMimeData>
 #include <QDrag>
+#include <QGraphicsScene>
 
 class BaseNode;
 ZoomableGraphicsView::ZoomableGraphicsView(QWidget *parent)
@@ -14,7 +15,9 @@ ZoomableGraphicsView::ZoomableGraphicsView(QWidget *parent)
     setDragMode(QGraphicsView::NoDrag);  // we'll handle custom drag
     setSceneRect(-5000, -5000, 10000, 10000);  // virtually infinite canvas
 
-    setAcceptDrops(true);  // <-- ✅ This line is important
+    customScene = new QGraphicsScene(this);  // ✅ create your scene here
+    setScene(customScene);                                    // ✅ set it to the view
+
 }
 
 void ZoomableGraphicsView::wheelEvent(QWheelEvent *event)

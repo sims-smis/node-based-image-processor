@@ -12,6 +12,7 @@ class ZoomableGraphicsView : public QGraphicsView
 
 public:
     explicit ZoomableGraphicsView(QWidget *parent = nullptr);
+    QGraphicsScene* customScene;
 
 protected:
     void wheelEvent(QWheelEvent *event) override;

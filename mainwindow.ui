@@ -94,70 +94,70 @@ background-color: rgb(144, 147, 147);</string>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="ImageInputNode">
+      <widget class="QPushButton" name="imageInputButton">
        <property name="text">
         <string>Image Input Node</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="OutputNode">
+      <widget class="QPushButton" name="outputButton">
        <property name="text">
         <string>Output Node</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_3">
+      <widget class="QPushButton" name="brightnessButton">
        <property name="text">
         <string>Brightness/Contrast Node</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_4">
+      <widget class="QPushButton" name="colorChannelButton">
        <property name="text">
         <string>Color Channel Splitter</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_5">
+      <widget class="QPushButton" name="blurButton">
        <property name="text">
         <string>Blur Node</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_6">
+      <widget class="QPushButton" name="thresholdButton">
        <property name="text">
         <string>Threshold Node</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_7">
+      <widget class="QPushButton" name="edgeDetectionButton">
        <property name="text">
         <string>Edge Detection Node</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_8">
+      <widget class="QPushButton" name="blendButton">
        <property name="text">
         <string>Blend Node</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_9">
+      <widget class="QPushButton" name="noiseGenerationButton">
        <property name="text">
         <string>Noise Generation Node</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_10">
+      <widget class="QPushButton" name="convFilterButton">
        <property name="text">
         <string>Convolution Filter Node</string>
        </property>
